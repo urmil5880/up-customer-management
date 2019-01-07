@@ -292,11 +292,11 @@ add_action('admin_menu', 'qd_customer_management_admin_menu');
 
 
 function qd_customer_listing(){
-	include('qd-customer-export.php');
+	include('up-customer-export.php');
 }
 
 function qd_customer_99(){
-    include('qd-plan99-customer.php');
+    include('up-plan99-customer.php');
 }
 
 /**
